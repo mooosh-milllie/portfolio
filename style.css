@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+body {
+	color: #333;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 1.4;
+	font-family: 'Oswald', sans-serif;
+	/* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif; */
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	
+}
+
+.logo a {
+    color: honeydew;
+}
+
+p {
+	font-size: 1.1rem;
+	width: 50%;
+}
+
+a {
+	text-decoration: none;
+	text-underline-offset: 0.25em;
+	transition: 0.1s;
+	font-size: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	background-color: #333;
+	width: 100%;
+}
+.logo {
+    font-weight: bolder;
+}
+.home-nav-div {
+	width: 50%;
+}
+
+.home-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home-nav li {
+	list-style: none;
+}
+.home-nav li a {
+    color: honeydew;
+}
+@media (max-width: 743px ) {
+	.home-nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.home-nav-div {
+		width: 70%;
+	}
+}
+
+main{
+    width: 100%;
+}
+
+.about-me {
+	margin-left: 2%;
+	margin-top: 10%;
+}
+
+.bottom-socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    list-style: none;
+}
+.bottom-socials li {
+    display: inline-block;
+    margin-right: 3rem;
+    font-size: 2rem;
+}
+.bottom-socials li a{
+    text-decoration: none;
+}
+
+
+.projects-layout {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: auto;
+}
+.proj-group-cont {
+	display: flex;
+	justify-content: space-between;
+}
+.project-item {
+	width: 80%;
+	padding: 2%
+}
+#last-item{
+	width: 50%;
+}
+img {
+	width: 80%;
+}
+.project-item-wrap p {
+	width: 80%;
+}
+@media only screen and (max-width: 600px) {
+	.about-me {
+		margin-left: 4%;
+		margin-top: 15%;
+	}
+	p {
+		width: 90%;
+	}
+	.proj-group-cont {
+		display: block;
+		justify-content: space-between;
+	}
+	.project-item {
+		width: 100%;
+		padding: 0;
+	}
+	#last-item{
+		width: 100%;
+	}
+
+	img {
+		width: 90%;
+	}
+	.project-item-wrap p {
+		width: 90%;
+	}
+}
+

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>My Portfolio</title>
+    <meta name="description" content="My Portfolio">
+    <meta name="author" content="Marshall">
+
+    <link rel="stylesheet" href="contact-style.css">
+    <script src="https://kit.fontawesome.com/35b715ca01.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: monospace, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <h1 class="logo"><a href="index.html">Marshall</a></h4>
+
+        <div class="home-nav-div">
+            <ul class="home-nav">
+                <li><a href="About.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main style="width: 100%;">
+        <div class="contact-form">
+            <div id="motivation"></div>
+            <h2 id="form-heading">Contact Me</h2>
+            <span class="contact-advice">
+                Feel free to leave a message below, You can also reach me on my social media platforms, thank you.
+            </span>
+            <form action="">
+                <div class="input-group">
+                    <label for="name">
+                        Name:
+                        <input type="text" name="name" id="name">
+                    </label>
+                </div>
+                <div class="input-group">
+                    <label for="email">
+                        Your Email:
+                        <input type="text" name="email" id="email">
+                    </label>
+                </div>
+                
+                <div class="input-group">
+                    <label for="message">
+                        Your Message:
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                    </label>
+                </div>
+                
+                <div id="submit-div">
+                    <input type="submit" value="send" id="submit">
+                </div>
+                
+            </form>
+        </div>
+
+        <div>
+            <ul class="bottom-socials">
+                <li><a href="#" class="fa fa-twitter-square"></a></li>
+                <li><a href="#" class="fa fa-facebook"></a></li>
+                <li><a href="#" class="fa fa-instagram"></a></li>
+                <li><a href="#" class="fa fa-github"></a></li>
+            </ul>
+        </div>
+    </main>
+  <script src="app.js"></script>
+</body>
+</html>
